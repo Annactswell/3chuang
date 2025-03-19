@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Heritage Art - Blue and White Porcelain Digital Collection Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        .glow {
+            box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 bg-black/30 backdrop-blur-lg py-4 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-indigo-400 bg-clip-text text-transparent">Digital Heritage Art Gallery</a>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="index.html" class="hover:text-purple-400 transition-colors">Home</a></li>
+                <li><a href="list.html" class="hover:text-purple-400 transition-colors">Market</a></li>
+                <li><a href="#" class="hover:text-purple-400 transition-colors">Artists</a></li>
+                <li><a href="#" class="hover:text-purple-400 transition-colors">About Us</a></li>
+            </ul>
+            <div class="flex items-center space-x-4">
+                <button class="connect-wallet bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full text-sm font-medium transition-all">Connect Wallet</button>
+                <button class="md:hidden text-2xl"><i class="bi bi-list"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-16">
+        <!-- Product Detail Area -->
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Left Image Display -->
+            <div class="relative">
+                <div class="bg-gradient-to-br from-purple-900/30 to-indigo-900/30 rounded-3xl p-8 border border-purple-500/20 glow">
+                    <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-1.2.1" alt="Blue and White Porcelain Digital Collection" class="w-full h-auto rounded-2xl object-cover float-animation">
+                </div>
+                <div class="absolute -bottom-5 -right-5 bg-purple-600 text-white px-6 py-3 rounded-full font-bold">
+                    Limited Edition: 100 pieces
+                </div>
+                <div class="mt-8 grid grid-cols-4 gap-4">
+                    <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-1.2.1" alt="thumbnail" class="rounded-lg cursor-pointer border-2 border-purple-500">
+                    <img src="https://images.unsplash.com/photo-1590238750866-f99d3febe496?ixlib=rb-1.2.1" alt="thumbnail" class="rounded-lg cursor-pointer hover:border-2 hover:border-purple-500 transition-all">
+                    <img src="https://images.unsplash.com/photo-1582642880428-3e2c04ad14ec?ixlib=rb-1.2.1" alt="thumbnail" class="rounded-lg cursor-pointer hover:border-2 hover:border-purple-500 transition-all">
+                    <div class="rounded-lg bg-gray-800/50 flex items-center justify-center cursor-pointer hover:bg-gray-800 transition-all">
+                        <span class="text-2xl">+3</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Product Information -->
+            <div class="space-y-8">
+                <div>
+                    <div class="flex items-center space-x-2 text-purple-400 mb-2">
+                        <i class="bi bi-patch-check-fill"></i>
+                        <span>Officially Certified Heritage Digital Collection</span>
+                    </div>
+                    <h1 class="text-4xl font-bold mb-4">Jingdezhen Blue and White Porcelain - Digital Art Collection</h1>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="flex items-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Artist Avatar" class="w-10 h-10 rounded-full border-2 border-purple-500">
+                            <div class="ml-2">
+                                <p class="text-sm text-gray-400">Creator</p>
+                                <p class="font-medium">Chen Jingde · Jingdezhen Heritage Artist</p>
+                            </div>
+                        </div>
+                        <div class="h-10 w-px bg-gray-700"></div>
+                        <div>
+                            <p class="text-sm text-gray-400">Release Date</p>
+                            <p class="font-medium">2024-05-15</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <p class="text-sm text-gray-400">Current Price</p>
+                            <div class="flex items-center">
+                                <i class="bi bi-ethereum text-2xl mr-2"></i>
+                                <span class="text-3xl font-bold">0.5 ETH</span>
+                                <span class="ml-2 text-gray-400">(≈ $7,500)</span>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-sm text-gray-400">Time Remaining</p>
+                            <p class="text-xl font-semibold text-red-400">23h 45m</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <button class="bg-gradient-to-r from-purple-600 to-purple-500 py-4 rounded-xl font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">Buy Now</button>
+                        <button class="bg-white/10 border border-purple-500/50 py-4 rounded-xl font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
+                        <h3 class="text-xl font-semibold mb-4">Collection Details</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            This blue and white porcelain digital collection is personally designed by Master Chen Jingde, an intangible cultural heritage inheritor from Jingdezhen. Each piece combines traditional blue and white porcelain craftsmanship with modern digital technology, perfectly presenting the essence of Chinese traditional ceramic art.
+                        </p>
+                        <div class="mt-4 grid grid-cols-2 gap-4 text-sm">
+                            <div class="flex items-center">
+                                <i class="bi bi-file-earmark-text text-purple-400 mr-2"></i>
+                                <span>Blockchain: Ethereum</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="bi bi-eye text-purple-400 mr-2"></i>
+                                <span>3,245 Views</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="bi bi-heart text-purple-400 mr-2"></i>
+                                <span>189 Favorites</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="bi bi-shield-check text-purple-400 mr-2"></i>
+                                <span>Authenticity Guaranteed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
+                        <h3 class="text-xl font-semibold mb-4">Cultural Heritage Background</h3>
+                        <p class="text-gray-300 leading-relaxed">
+                            Jingdezhen blue and white porcelain is an outstanding representative of Chinese traditional porcelain craftsmanship, with a history of over a thousand years. Known for its blue and white colors and exquisite patterns, it is praised as "white as jade, bright as a mirror, thin as paper, and sound like chime." Through blockchain technology, we permanently preserve this precious intangible cultural heritage in digital form, allowing more people to appreciate and collect this artistic treasure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommended Collections -->
+        <div class="max-w-7xl mx-auto px-4 mt-20">
+            <h2 class="text-3xl font-bold mb-10">Related Collections</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+                    <img src="https://images.unsplash.com/photo-1590238750866-f99d3febe496?ixlib=rb-1.2.1" alt="Miao Embroidery Digital Art" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold mb-2">Miao Embroidery Digital Art</h3>
+                        <p class="text-gray-400 text-sm mb-3">By Guizhou Heritage Artist</p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-xl font-bold text-purple-500">0.3 ETH</p>
+                            <button class="bg-white/10 hover:bg-purple-600 px-3 py-1 rounded-full text-sm transition-colors">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+                    <img src="https://images.unsplash.com/photo-1582642880428-3e2c04ad14ec?ixlib=rb-1.2.1" alt="Paper-cutting Art" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold mb-2">Shaanxi Paper-cutting Art</h3>
+                        <p class="text-gray-400 text-sm mb-3">By Shaanxi Heritage Artist</p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-xl font-bold text-purple-500">0.4 ETH</p>
+                            <button class="bg-white/10 hover:bg-purple-600 px-3 py-1 rounded-full text-sm transition-colors">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+                    <img src="https://images.unsplash.com/photo-1624023749503-a0293d677589?ixlib=rb-1.2.1" alt="Peking Opera Masks" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold mb-2">Peking Opera Mask Series</h3>
+                        <p class="text-gray-400 text-sm mb-3">By Beijing Heritage Artist</p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-xl font-bold text-purple-500">0.6 ETH</p>
+                            <button class="bg-white/10 hover:bg-purple-600 px-3 py-1 rounded-full text-sm transition-colors">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 rounded-2xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1" alt="Lacquer Art" class="w-full h-48 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold mb-2">Fuzhou Bodiless Lacquerware</h3>
+                        <p class="text-gray-400 text-sm mb-3">By Fujian Heritage Artist</p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-xl font-bold text-purple-500">0.45 ETH</p>
+                            <button class="bg-white/10 hover:bg-purple-600 px-3 py-1 rounded-full text-sm transition-colors">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black/30 text-gray-400 py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Digital Heritage Art Gallery</h3>
+                    <p class="mb-4">Connecting Millennial Culture with Modern Technology</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-xl hover:text-purple-400"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="text-xl hover:text-purple-400"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-xl hover:text-purple-400"><i class="bi bi-discord"></i></a>
+                        <a href="#" class="text-xl hover:text-purple-400"><i class="bi bi-telegram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Market</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-purple-400">All Collections</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Popular Auctions</a></li>
+                        <li><a href="#" class="hover:text-purple-400">New Releases</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Limited Editions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-purple-400">Help Center</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Platform Rules</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Partners</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Subscribe to Updates</h4>
+                    <p class="mb-4">Get the latest news and exclusive offers for digital heritage art</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Enter your email" class="bg-white/10 border border-white/20 rounded-l-lg px-4 py-2 w-full focus:outline-none focus:border-purple-500">
+                        <button class="bg-purple-600 hover:bg-purple-700 rounded-r-lg px-4 transition-colors">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-white/10 text-center">
+                <div class="flex justify-center space-x-4 mt-4 text-sm">
+                    <a href="#" class="hover:text-purple-400">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-purple-400">Terms of Service</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-purple-400">Disclaimer</a>
+                </div>
+                <div class="mt-4 text-sm">
+                    <p>ICP License: XXXXXXXX-1 | Public Security License: XXXXXXXXXXXXX</p>
+                    <p class="mt-2">Address: XXX Road, West Lake District, Hangzhou, Zhejiang | Tel: 0571-XXXXXXXX | Email: contact@nft-heritage.com</p>
+                </div>
+                <div class="mt-6 flex justify-center items-center space-x-4">
+                    <img src="/static/images/cert1.png" alt="Certification Badge" class="h-8">
+                    <img src="/static/images/cert2.png" alt="Certification Badge" class="h-8">
+                    <img src="/static/images/cert3.png" alt="Certification Badge" class="h-8">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('bg-opacity-90');
+                nav.classList.add('bg-black');
+            } else {
+                nav.classList.remove('bg-opacity-90');
+                nav.classList.remove('bg-black');
+            }
+        });
+
+        // Thumbnail switching
+        document.querySelectorAll('.mt-8 img').forEach(img => {
+            img.addEventListener('click', function() {
+                // Remove border from all thumbnails
+                document.querySelectorAll('.mt-8 img').forEach(i => {
+                    i.classList.remove('border-2', 'border-purple-500');
+                });
+                // Add border to clicked thumbnail
+                this.classList.add('border-2', 'border-purple-500');
+                // Update main image
+                document.querySelector('.float-animation').src = this.src;
+            });
+        });
+
+        // Web3 wallet connection
+        document.querySelectorAll('.connect-wallet').forEach(button => {
+            button.addEventListener('click', async () => {
+                if (typeof window.ethereum !== 'undefined') {
+                    try {
+                        await window.ethereum.request({ method: 'eth_requestAccounts' });
+                        console.log('Wallet connected');
+                    } catch (error) {
+                        console.error('Connection failed:', error);
+                    }
+                } else {
+                    alert('Please install MetaMask wallet');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

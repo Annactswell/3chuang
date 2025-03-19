@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intangible Heritage NFT Art Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <header class="bg-gradient-to-r from-gray-800 to-gray-900 py-8 text-center border-b border-white/10">
+        <h1 class="text-3xl font-bold">Intangible Heritage NFT Art Marketplace</h1>
+        <p class="mt-2">Perfect Integration of Traditional Culture and Blockchain Technology</p>
+    </header>
+
+    <nav class="sticky top-0 z-50 bg-white/5 backdrop-blur-lg py-5">
+        <ul class="flex justify-center max-w-7xl mx-auto">
+            <li class="mx-8"><a href="index.html" class="hover:text-purple-500 transition-colors duration-300">Home</a></li>
+            <li class="mx-8"><a href="market.html" class="hover:text-purple-500 transition-colors duration-300">Market</a></li>
+            <li class="mx-8"><a href="about.html" class="hover:text-purple-500 transition-colors duration-300">About</a></li>
+            <li class="mx-8"><a href="wallet.html" class="hover:text-purple-500 transition-colors duration-300">Wallet</a></li>
+            <li class="mx-8"><a href="login.html" class="hover:text-purple-500 transition-colors duration-300">Login</a></li>
+        </ul>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-black/70 z-0">
+            <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" 
+                class="w-full h-full object-cover mix-blend-overlay" alt="background">
+        </div>
+        <div class="relative z-10">
+            <h2 class="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-500 to-purple-400 bg-clip-text text-transparent">Explore Digital Art of Intangible Cultural Heritage</h2>
+            <p class="text-xl mb-8">Unique NFT Collections, Inheriting Millennia of Cultural Essence</p>
+            <button class="bg-gradient-to-r from-purple-600 to-purple-500 px-10 py-4 rounded-full font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">Explore Now</button>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+            <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-1.2.1" alt="Heritage Art" class="w-full h-[350px] object-cover">
+            <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Blue and White Porcelain Digital Art</h3>
+                <p class="text-gray-400">By Jingdezhen Heritage Artist</p>
+                <p class="text-3xl font-bold text-purple-500 my-5">0.5 ETH</p>
+                <button class="w-full bg-gradient-to-r from-purple-600 to-purple-500 py-4 rounded-full font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300">Collect Now</button>
+            </div>
+        </div>
+
+        <div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+            <img src="https://images.unsplash.com/photo-1590238750866-f99d3febe496?ixlib=rb-1.2.1" alt="Heritage Art" class="w-full h-[350px] object-cover">
+            <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Miao Embroidery Art</h3>
+                <p class="text-gray-400">By Guizhou Heritage Artist</p>
+                <p class="text-3xl font-bold text-purple-500 my-5">0.3 ETH</p>
+                <button class="w-full bg-gradient-to-r from-purple-600 to-purple-500 py-4 rounded-full font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300">Collect Now</button>
+            </div>
+        </div>
+
+        <div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 hover:-translate-y-2 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20">
+            <img src="https://images.unsplash.com/photo-1582642880428-3e2c04ad14ec?ixlib=rb-1.2.1" alt="Heritage Art" class="w-full h-[350px] object-cover">
+            <div class="p-8">
+                <h3 class="text-2xl font-semibold mb-4">Paper-cutting Art Collection</h3>
+                <p class="text-gray-400">By Shaanxi Heritage Artist</p>
+                <p class="text-3xl font-bold text-purple-500 my-5">0.4 ETH</p>
+                <button class="w-full bg-gradient-to-r from-purple-600 to-purple-500 py-4 rounded-full font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300">Collect Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white/5 text-gray-400 text-center py-12 mt-12 border-t border-white/10">
+        <p>© 2024 Intangible Heritage NFT Art Marketplace. All Rights Reserved</p>
+        <p class="mt-2">Contact us: contact@nft-heritage.com</p>
+    </footer>
+
+    <script>
+        // Web3 integration code will be added here
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', () => {
+                // Handle purchase logic
+                console.log('Purchase request sent');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Art Marketplace - Intangible Cultural Heritage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <header class="bg-gradient-to-r from-gray-800 to-gray-900 py-8 text-center border-b border-white/10">
+        <h1 class="text-3xl font-bold">NFT Art Marketplace</h1>
+        <p class="mt-2">Explore Digital Art Collections of Intangible Cultural Heritage</p>
+    </header>
+
+    <nav class="sticky top-0 z-50 bg-white/5 backdrop-blur-lg py-5">
+        <ul class="flex justify-center max-w-7xl mx-auto">
+            <li class="mx-8"><a href="index.html" class="hover:text-purple-500 transition-colors duration-300">Home</a></li>
+            <li class="mx-8"><a href="market.html" class="hover:text-purple-500 transition-colors duration-300">Market</a></li>
+            <li class="mx-8"><a href="about.html" class="hover:text-purple-500 transition-colors duration-300">About</a></li>
+            <li class="mx-8"><a href="wallet.html" class="hover:text-purple-500 transition-colors duration-300">Wallet</a></li>
+            <li class="mx-8"><a href="login.html" class="hover:text-purple-500 transition-colors duration-300">Login</a></li>
+          </ul>
+    </nav>
+
+    <!-- Filter Section -->
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="bg-white/5 rounded-xl p-6 backdrop-blur-lg border border-white/10">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center space-x-4">
+                    <h3 class="text-lg font-semibold">Filter:</h3>
+                    <select class="bg-gray-800 border border-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <option>All Categories</option>
+                        <option>Paper Cutting Art</option>
+                        <option>Ceramic Art</option>
+                        <option>Embroidery Art</option>
+                        <option>Wood Carving</option>
+                        <option>Opera Art</option>
+                        <option>Textile Art</option>
+                        <option>Metal Crafts</option>
+                    </select>
+                    <select class="bg-gray-800 border border-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <option>Price Range</option>
+                        <option>0-0.1 ETH</option>
+                        <option>0.1-0.5 ETH</option>
+                        <option>0.5-1 ETH</option>
+                        <option>1+ ETH</option>
+                    </select>
+                    <select class="bg-gray-800 border border-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                        <option>Sort By</option>
+                        <option>Recently Added</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Most Viewed</option>
+                        <option>Most Popular</option>
+                    </select>
+                </div>
+                <div class="relative">
+                    <input type="text" placeholder="Search art pieces..." class="bg-gray-800 border border-gray-700 text-white rounded-lg pl-10 pr-4 py-2 w-full md:w-80 focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    <i class="bi bi-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="max-w-7xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Art Card 1 -->
+            <div class="group">
+                <div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 group-hover:-translate-y-2 group-hover:border-purple-500 group-hover:shadow-xl group-hover:shadow-purple-500/20">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-1.2.1" alt="Blue and White Porcelain" class="w-full h-[250px] object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute top-3 right-3 bg-purple-500/80 rounded-full p-2 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="bi bi-heart text-white"></i>
+                        </div>
+                        <div class="absolute top-3 left-3 bg-purple-500/80 rounded-full px-3 py-1 text-xs backdrop-blur-sm">
+                            Limited Edition: 50/100
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-purple-500/20 text-purple-400 text-xs px-3 py-1 rounded-full">Ceramic Art</span>
+                            <span class="text-gray-400 text-sm"><i class="bi bi-eye"></i> 1.2k</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-purple-400 transition-colors">Blue and White Porcelain Digital Art</h3>
+                        <p class="text-gray-400 text-sm mb-4">Created by Jingdezhen master artisan, combining traditional craftsmanship with digital innovation</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-2xl font-bold text-purple-500">0.5 ETH</p>
+                                <p class="text-sm text-gray-400">≈ $1,250 USD</p>
+                            </div>
+                            <button class="bg-gradient-to-r from-purple-600 to-purple-500 px-4 py-2 rounded-full font-semibold text-sm hover:-translate-y-1 transition-all duration-300">Collect Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Art Card 2 -->
+            <div class="group">
+                <div class="bg-white/5 rounded-3xl overflow-hidden border border-white/10 backdrop-blur-lg transition duration-500 group-hover:-translate-y-2 group-hover:border-purple-500 group-hover:shadow-xl group-hover:shadow-purple-500/20">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1590238750866-f99d3febe496?ixlib=rb-1.2.1" alt="Miao Embroidery" class="w-full h-[250px] object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute top-3 right-3 bg-purple-500/80 rounded-full p-2 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="bi bi-heart text-white"></i>
+                        </div>
+                        <div class="absolute top-3 left-3 bg-purple-500/80 rounded-full px-3 py-1 text-xs backdrop-blur-sm">
+                            Limited Edition: 25/50
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-purple-500/20 text-purple-400 text-xs px-3 py-1 rounded-full">Embroidery Art</span>
+                            <span class="text-gray-400 text-sm"><i class="bi bi-eye"></i> 956</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-purple-400 transition-colors">Miao Embroidery Digital Art</h3>
+                        <p class="text-gray-400 text-sm mb-4">A digital interpretation of traditional Miao embroidery, showcasing ethnic minority craftsmanship</p>
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-2xl font-bold text-purple-500">0.3 ETH</p>
+                                <p class="text-sm text-gray-400">≈ $750 USD</p>
+                            </div>
+                            <button class="bg-gradient-to-r from-purple-600 to-purple-500 px-4 py-2 rounded-full font-semibold text-sm hover:-translate-y-1 transition-all duration-300">Collect Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional art cards would continue here following the same pattern -->
+
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <div class="max-w-7xl mx-auto px-4 py-12 flex justify-center">
+        <div class="flex space-x-2">
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 hover:bg-purple-500 hover:border-purple-500 transition-colors">
+                <i class="bi bi-chevron-left"></i>
+            </a>
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-500 text-white">1</a>
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 hover:bg-purple-500 hover:border-purple-500 transition-colors">2</a>
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 hover:bg-purple-500 hover:border-purple-500 transition-colors">3</a>
+            <span class="w-10 h-10 flex items-center justify-center">...</span>
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 hover:bg-purple-500 hover:border-purple-500 transition-colors">10</a>
+            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/10 hover:bg-purple-500 hover:border-purple-500 transition-colors">
+                <i class="bi bi-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="bg-gradient-to-r from-purple-900/40 to-purple-600/40 rounded-3xl p-12 backdrop-blur-lg border border-purple-500/30 relative overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden opacity-10">
+                <div class="absolute -right-10 -top-10 w-60 h-60 bg-purple-500 rounded-full"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-purple-700 rounded-full"></div>
+            </div>
+            <div class="relative z-10 text-center">
+                <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+                <p class="text-lg text-purple-200 mb-8 max-w-2xl mx-auto">Get the latest updates on new digital heritage artworks, artist interviews, and exclusive offers</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-xl mx-auto">
+                    <input type="email" placeholder="Enter your email address" class="bg-white/10 border border-purple-500/30 text-white rounded-full px-6 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 flex-grow">
+                    <button class="bg-gradient-to-r from-purple-600 to-purple-500 px-8 py-3 rounded-full font-semibold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white/5 text-gray-400 text-center py-12 mt-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-left mb-8">
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">About Us</h3>
+                    <p class="text-sm">We are dedicated to preserving and promoting intangible cultural heritage through blockchain technology, bringing new vitality to traditional culture.</p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-purple-400">Explore Art</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Artist Directory</a></li>
+                        <li><a href="#" class="hover:text-purple-400">How to Buy</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Create NFT</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-purple-400">Help Center</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Platform Rules</a></li>
+                        <li><a href="#" class="hover:text-purple-400">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-purple-400">FAQs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4 text-xl">
+                        <a href="#" class="hover:text-purple-400"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="hover:text-purple-400"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="hover:text-purple-400"><i class="bi bi-discord"></i></a>
+                        <a href="#" class="hover:text-purple-400"><i class="bi bi-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-white/10">
+                <p>© 2024 Heritage NFT Art Marketplace. All Rights Reserved</p>
+                <div class="flex justify-center space-x-4 mt-4 text-sm">
+                    <a href="#" class="hover:text-purple-400">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-purple-400">Terms of Service</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-purple-400">Disclaimer</a>
+                </div>
+                <div class="mt-4 text-sm">
+                    <p>ICP License: XXXXXXXX-1 | Public Security License: XXXXXXXXXXXXX</p>
+                    <p class="mt-2">Address: XXX Road, West Lake District, Hangzhou, Zhejiang | Tel: +86-571-XXXXXXXX | Email: contact@nft-heritage.com</p>
+                </div>
+                <div class="mt-6 flex justify-center items-center space-x-4">
+                    <img src="/static/images/cert1.png" alt="Certification Badge" class="h-8">
+                    <img src="/static/images/cert2.png" alt="Certification Badge" class="h-8">
+                    <img src="/static/images/cert3.png" alt="Certification Badge" class="h-8">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('bg-opacity-90');
+            } else {
+                nav.classList.remove('bg-opacity-90');
+            }
+        });
+
+        // Web3 wallet connection
+        document.querySelectorAll('.connect-wallet').forEach(button => {
+            button.addEventListener('click', async () => {
+                if (typeof window.ethereum !== 'undefined') {
+                    try {
+                        await window.ethereum.request({ method: 'eth_requestAccounts' });
+                        console.log('Wallet connected');
+                    } catch (error) {
+                        console.error('Connection failed:', error);
+                    }
+                } else {
+                    alert('Please install MetaMask wallet');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
